@@ -2,10 +2,13 @@ export default function Feed() {
     return (
         <div className="flex min-h-full flex-1 flex-col justify-center px py">
             <div class="font-sans border px-6 py-4 w-full">
-                <div class="text-grey text-sm flex justify-end">11:56 AM - Ago 3, 2022</div>
+                
                 <div class="flex items-center"><img src="https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png" class="h-12 w-12 rounded-full"/>
-                    <div class="flex flex-col ml-2.5"><a class="font-bold text-black" href="#">David Ordone
-                            </a><span class="text-grey">@DavidOrdone</span></div>
+                    <div class="flex flex-col ml-2.5">
+                        <a class="font-bold text-black" href="#">David Ordone</a>
+                        <span class="text-grey">@DavidOrdone</span>
+                    </div>
+                    <div class="text-grey text-xs flex h-10 w-full justify-end">03/08/2023 11:56 AM</div>
                 </div>
                 <div class="mt-3 mb-2 leading-normal">Shake em up, shake em up, shake em up, shake em roll em in a circle of niggas and watch me break em
                     with the seven, seven-eleven, seven-eleven seven even back do' Little Joe
