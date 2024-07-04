@@ -12,12 +12,6 @@ root.render(
         <Feed />
         <Feed />
         <Feed />
-        <Feed />
-        <Feed />
-        <Feed />
-        <Feed />
-        <Feed />
-        <Feed />
         <Navigation />
     </div>
 );
