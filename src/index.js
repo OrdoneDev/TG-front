@@ -8,10 +8,14 @@ import Navigation from './Navigation';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        <Feed />
-        <Feed />
-        <Feed />
-        <Feed />
+            <div>
+            <Feed />
+            <Feed />
+            <Feed />
+            <div className="mb-16">
+                <Feed />
+            </div>
+        </div>
         <Navigation />
     </div>
 );
