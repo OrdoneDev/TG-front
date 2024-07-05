@@ -1,4 +1,4 @@
-export default function Imagem() {
+export default function ImagemFeed() {
     return (
         <div class="mt-2">
             <a href="#">

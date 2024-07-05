@@ -1,5 +1,5 @@
-import Imagem from "./Imagem";
-import Arquivo from "./Arquivo";
+import ImagemFeed from "./ImagemFeed";
+import ArquivoFeed from "./ArquivoFeed";
 
 export default function Feed() {
     return (
@@ -15,14 +15,14 @@ export default function Feed() {
                     <div class="text-grey text-xs flex h-10 w-full justify-end">03/08/2023 11:56 AM</div>
                 </div>
                 
-                <Imagem />
+                <ImagemFeed />
 
                 <div class="mt-3 mb-2 leading-normal text-sm sm:text-base">Use these components to show a list of related and recommended blog posts and articles at the bottom of the main content area of an article or blog post page.
                 Check out some of the other recommended blocks from Flowbite to get started building your website faster with Tailwind CSS.
                 </div>
 
                 <div>
-                    <Arquivo />
+                    <ArquivoFeed />
                 </div>
                 
                 <div class="flex text-grey mt-2.5 text-sm sm:text-base">

@@ -1,4 +1,4 @@
-export default function Arquivo() {
+export default function ArquivoFeed() {
     return (
         <div class="flex items-start mt-2 ">
             <div class="flex flex-col">
