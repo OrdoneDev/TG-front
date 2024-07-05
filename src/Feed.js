@@ -4,7 +4,7 @@ import Arquivo from "./Arquivo";
 export default function Feed() {
     return (
         <div className="flex flex-col items-center justify-center xl:w-[40%] lx:w-[45%] lg:w-[50%] ll:w-[60%] md:w-[75%] sm:w-[90%] xs:w-[100%] mx-auto h-full">
-            <div class="font-sans border px-5 py-5 w-full">
+            <div class="font-sans border px-5 py-2 w-full">
                 <div class="flex items-center"><img src="https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png" class="h-12 w-12 rounded-full"/>
                     <div class="flex flex-col ml-2.5 w-full ">
                         <span class="font-bold text-black h-5">David Ordone</span>

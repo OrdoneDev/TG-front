@@ -4,10 +4,12 @@ import './index.css';
 import Login from './Login';
 import Feed from './Feed';
 import Navigation from './Navigation';
+import InputPublicacao from './InputPublicacao';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
+            <InputPublicacao />
             <div>
             <Feed />
             <Feed />
