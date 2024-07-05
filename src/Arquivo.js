@@ -1,9 +1,9 @@
 export default function Arquivo() {
     return (
-        <div class="flex items-start mt-2">
+        <div class="flex items-start mt-2 ">
             <div class="flex flex-col">
-                <div class="flex flex-col w-full leading-1.5 border-gray-200">
-                    <div class="flex items-start bg-gray-100 rounded-xl p-2">
+                <div class="flex flex-col w-full leading-1.5 border-gray-200 ">
+                    <div class="flex items-start bg-gray-100 rounded-xl p-2 shadow">
                         <div class="me-2">
                         <span class="flex items-center gap-2 text-sm font-medium text-gray-900 pb-2">
                             <svg fill="none" aria-hidden="true" class="w-5 h-5 flex-shrink-0" viewBox="0 0 20 20">

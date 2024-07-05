@@ -9,12 +9,12 @@ import InputPublicacao from './InputPublicacao';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-            <InputPublicacao />
-            <div>
+        <InputPublicacao />
+        <div>
             <Feed />
             <Feed />
             <Feed />
-            <div className="mb-16">
+            <div className="mb-12">
                 <Feed />
             </div>
         </div>
