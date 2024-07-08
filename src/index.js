@@ -20,6 +20,6 @@ root.render(
             </div>
         </div>
         <Navigation />*/}
-        <Login />
+        <CadastroUsuario />
     </div>
 );
