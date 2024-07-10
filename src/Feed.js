@@ -17,8 +17,17 @@ export default function Feed() {
                 
                 <ImagemFeed />
 
-                <div class="mt-3 mb-2 leading-normal text-sm sm:text-base">Use these components to show a list of related and recommended blog posts and articles at the bottom of the main content area of an article or blog post page.
-                Check out some of the other recommended blocks from Flowbite to get started building your website faster with Tailwind CSS.
+                <div class="mt-3 mb-2 leading-normal text-sm sm:text-base text-justify">
+                
+Hoje, vivemos em uma era digital onde o acesso à informação está ao alcance de todos. 📚💻 Por meio de livros e arquivos virtuais, podemos disseminar conhecimentos diversos e enriquecer a sociedade.
+
+🌐📖 Os livros têm sido nossos companheiros há séculos, transmitindo sabedoria, histórias e ideias. Agora, com a internet, temos uma plataforma ainda mais poderosa: as redes sociais!
+
+🌐📲💡 Imagine só: um artigo científico compartilhado na sua social media, um tutorial prático ou uma discussão profunda. Essas plataformas conectam pessoas, ampliam horizontes e promovem o aprendizado coletivo. 🤝🌍🚀
+
+ Então, vamos continuar compartilhando conhecimento! Juntos, podemos construir uma sociedade mais informada, curiosa e inspirada. 🌟💡
+
+<br/><br/>#CompartilheConhecimento #AprendizadoColetivo #RedesSociais
                 </div>
 
                 <div>

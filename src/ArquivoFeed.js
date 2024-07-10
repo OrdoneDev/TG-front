@@ -21,14 +21,14 @@ export default function ArquivoFeed() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            Flowbite Terms & Conditions
+                            Comece pelo porquê
                         </span>
                         <span class="flex text-xs font-normal text-gray-500 gap-2">
-                            12 Pages 
+                            256 Páginas 
                             <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="self-center" width="3" height="4" viewBox="0 0 3 4" fill="none">
                                 <circle cx="1.5" cy="2" r="1.5" fill="#6B7280"/>
                             </svg>
-                            18 MB 
+                            88 MB 
                             <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="self-center" width="3" height="4" viewBox="0 0 3 4" fill="none">
                                 <circle cx="1.5" cy="2" r="1.5" fill="#6B7280"/>
                             </svg>
