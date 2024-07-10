@@ -1,6 +1,6 @@
 export default function Login() {
   return (
-    <div className="flex min-h-full flex-col items-center justify-center px-5 py-11 lg:px-8">
+    <div className="flex min-h-full flex-col items-center justify-center px-5 py-5 lg:px-8">
       <div class="max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-4">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <h2 className="mt-2.5 text-left text-2xl font-bold leading-9 tracking-tight text-gray-900">
@@ -20,7 +20,7 @@ export default function Login() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  placeholder="nome@gmail.com"
+                  placeholder="nome@outlook.com"
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -79,7 +79,7 @@ export default function Login() {
                 </g>
                 </g>
               </svg>
-              <span>Continue with Google</span>
+              <span>Entrar com Google</span>
             </button>
             <button class="mt-2 w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
               <svg class="h-6 w-6 mr-2" viewBox="0 0 48 48" version="1.1">
@@ -89,7 +89,7 @@ export default function Login() {
                   </g>
                   </g>
               </svg>
-              <span>Continue with Facebook</span>
+              <span>Entrar com Facebook</span>
             </button>
             <button class="mt-2 w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
               <svg class="h-6 w-6 mr-2" viewBox="0 -2 44 44" version="1.1">
@@ -99,7 +99,7 @@ export default function Login() {
                   </g>
                   </g>
               </svg>
-              <span>Continue with LinkedIn</span>
+              <span>Entrar com LinkedIn</span>
             </button>
           </div>
         </div>
