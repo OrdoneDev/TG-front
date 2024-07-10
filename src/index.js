@@ -10,7 +10,7 @@ import CadastroUsuario from './CadastroUsuario';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        {/*<InputPublicacao />
+        <InputPublicacao />
         <div>
             <Feed />
             <Feed />
@@ -19,7 +19,7 @@ root.render(
                 <Feed />
             </div>
         </div>
-        <Navigation />*/}
-        <CadastroUsuario />
+        <Navigation />
+        {/*<CadastroUsuario />*/}
     </div>
 );

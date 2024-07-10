@@ -1,8 +1,8 @@
-export default function ImagemFeed() {
+export default function ImagemFeed(foto) {
     return (
         <div class="mt-2">
             <a href="#">
-                <img class="rounded-xl shadow" src="https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/flowbite.png" alt="" />
+                <img class="rounded-xl shadow" src={foto} />
             </a>
         </div>
     );
