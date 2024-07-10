@@ -6,6 +6,7 @@ import Feed from './Feed';
 import Navigation from './Navigation';
 import InputPublicacao from './InputPublicacao';
 import CadastroUsuario from './CadastroUsuario';
+import EditarPerfil from './EditarPerfil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +21,7 @@ root.render(
             </div>
         </div>
         <Navigation />*/}
-        {/*<Login />*/}
-        <CadastroUsuario/>
+        <EditarPerfil />
+        <Navigation />
     </div>
 );
