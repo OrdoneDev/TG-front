@@ -1,4 +1,4 @@
-export default function ImagemFeed(foto) {
+export default function ImagemPublicacao(foto) {
     return (
         <div class="mt-2">
             <a href="#">

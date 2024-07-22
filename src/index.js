@@ -1,27 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Login from './Login';
-import Feed from './Feed';
-import Navigation from './Navigation';
-import InputPublicacao from './InputPublicacao';
-import CadastroUsuario from './CadastroUsuario';
-import EditarPerfil from './EditarPerfil';
+import Login from './Components/Pages/Login';
+import CadastroUsuario from './Components/Pages/CadastroUsuario';
+import EditarPerfil from './Components/Pages/EditarPerfil';
+import Home from './Components/Pages/Home';
+import Perfil from './Components/Pages/Perfil';
+import Comunidade from './Components/Pages/Comunidade'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        {/*<InputPublicacao />
-        <div>
-            <Feed />
-            <Feed />
-            <Feed />
-            <div className="mb-12">
-                <Feed />
-            </div>
-        </div>
-        <Navigation />*/}
-        <EditarPerfil />
-        <Navigation />
+        <Perfil/>
     </div>
 );

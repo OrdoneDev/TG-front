@@ -1,7 +1,7 @@
-import ImagemFeed from "./ImagemFeed";
-import ArquivoFeed from "./ArquivoFeed";
+import ImagemPublicacao from "./ImagemPublicacao";
+import ArquivoPublicacao from "./ArquivoPublicacao";
 
-export default function Feed() {
+export default function Publicacao() {
     const infoPerfil = {
         foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
         nome: 'David Ordone',
@@ -57,12 +57,12 @@ export default function Feed() {
                     <div class="text-grey text-xs flex h-10 w-full justify-end">{infoPublicacao.dataPublicacao}</div>
                 </div>
                 
-                {ImagemFeed(infoPublicacao.foto)}
+                {ImagemPublicacao(infoPublicacao.foto)}
 
                 <div class="mt-3 mb-2 leading-normal text-sm sm:text-base">{infoPublicacao.descricao}</div>
 
                 <div>
-                    { infoPublicacao.infoArquivos?.map( infoArquivo => (ArquivoFeed(infoArquivo) ))}
+                    { infoPublicacao.infoArquivos?.map( infoArquivo => (ArquivoPublicacao(infoArquivo) ))}
                 </div>
                 
                 <div class="flex text-grey mt-2.5 text-sm sm:text-base">

@@ -1,4 +1,4 @@
-export default function infoArquivoFeed(infoArquivo) {
+export default function infoArquivoPublicacao(infoArquivo) {
     let rateUp = []
     let rateDown = []
 
