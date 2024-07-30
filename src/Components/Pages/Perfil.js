@@ -1,6 +1,6 @@
 import Feed from "./Feed"
 
-export default function Perfil() {
+export default function Perfil(props) {
     const usuario = {
         nome: 'David Ordone',
         data_nascimento: '20/08/1994',

@@ -5,13 +5,13 @@ import CadastroUsuario from './Components/Pages/CadastroUsuario';
 import EditarPerfil from './Components/Pages/EditarPerfil';
 import Home from './Components/Pages/Home';
 import Perfil from './Components/Pages/Perfil';
-import Comunidade from './Components/Pages/Comunidade'
+import Comunidades from './Components/Pages/Comunidades'
 
 export default function App() {
     return (
         <div className="container">
             <BrowserRouter>
-                <Login/>
+                <Home/>
             </BrowserRouter>
         </div>
     );
