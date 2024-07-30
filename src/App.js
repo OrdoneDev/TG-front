@@ -11,7 +11,14 @@ export default function App() {
     return (
         <div className="container">
             <BrowserRouter>
-                <Home/>
+                <Routes>
+                    <Route path='/' element={<Home/>} />
+                    <Route path='/entrar' element={<Login/>} />
+                    <Route path='/registrar' element={<CadastroUsuario/>} />
+                    <Route path='/editarPerfil' element={<EditarPerfil/>} />
+                    <Route path='/perfil' element={<Perfil/>} />
+                    <Route path='/comunidades' element={<Comunidades/>} />
+                </Routes>
             </BrowserRouter>
         </div>
     );
