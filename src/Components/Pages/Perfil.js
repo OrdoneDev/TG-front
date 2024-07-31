@@ -1,6 +1,7 @@
 import Feed from "./Feed"
+import Navigation from '../Navigation/Navigation';
 
-export default function Perfil(props) {
+export default function Perfil() {
     const usuario = {
         nome: 'David Ordone',
         data_nascimento: '20/08/1994',
@@ -42,6 +43,7 @@ export default function Perfil(props) {
             </div>
             
             <Feed/>
+            <Navigation />
         </div>
     )
 }
