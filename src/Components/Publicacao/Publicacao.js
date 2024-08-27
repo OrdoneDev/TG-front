@@ -48,7 +48,8 @@ export default function Publicacao() {
         <li>
             <div className="shadow-sm flex flex-col items-center justify-center xl:w-[40%] lx:w-[45%] lg:w-[50%] ll:w-[60%] md:w-[75%] sm:w-[90%] xs:w-[100%] mx-auto h-full">
                 <div class="font-sans border px-5 py-2 w-full">
-                    <div class="flex items-center"><img src={infoPerfil.foto} class="h-12 w-12 rounded-full shadow-md"/>
+                    <div class="flex items-center">
+                        <img src={infoPerfil.foto} class="h-12 w-12 rounded-full shadow-md"/>
                         <div class="flex flex-col ml-2 w-full ">
                             <span class="font-semibold text-sm sm:text-base text-black h-5 xs:h-4 sm:h-[19px]">{infoPerfil.nome}</span>
                             <a href="#" className="text-xs text-blue-500 hover:text-blue-300 h-5">

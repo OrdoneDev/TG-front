@@ -9,7 +9,7 @@ import Comunidades from './Components/Pages/Comunidades'
 
 export default function App() {
     return (
-        <div className="container">
+        <div>
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Home/>} />
