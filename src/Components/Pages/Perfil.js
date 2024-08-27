@@ -16,10 +16,10 @@ export default function Perfil() {
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
                 <div class="w-full flex flex-col gap-1 pt-3 py-2 shadow-lg bg-white dark:bg-gray-600 px-5 dark:text-white">
                     <div class="flex items-center gap-3">
-                        <img src="https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png" alt="User profile" class="w-[5rem] h-[5rem] rounded-full shadow-md" />
+                        <img src="https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png" alt="User profile" class="w-[4.5rem] h-[4.5rem] rounded-full shadow-md" />
                         <div class="flex flex-col gap-3 w-full">
-                            <div class="text-base">
-                                {usuario.nome}<br/>
+                            <div class="text-xs">
+                                <span class="font-semibold">{usuario.nome}</span><br/>
                                 <div class="text-xs">
                                     {usuario.data_nascimento}<br/>
                                     {usuario.sexo}<br/>
@@ -36,7 +36,7 @@ export default function Perfil() {
                         </div>
                     </div>
 
-                    <div class="mt-2 mb-2 leading-normal text-sm sm:text-base">
+                    <div class="mt-0.5 mb-2 leading-normal text-sm sm:text-base">
                         {usuario.biografia}
                         <a href="#" className="text-sm justify-end font-semibold text-indigo-400 hover:text-indigo-300">
                             veja mais
