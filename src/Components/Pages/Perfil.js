@@ -1,5 +1,6 @@
 import Feed from "./Feed"
 import Navigation from '../Navigation/Navigation';
+import ColecaoArquivosRecemPublicados from "../Perfil/ArquivosRecemPublicados";
 
 export default function Perfil() {
     const usuario = {
@@ -45,6 +46,7 @@ export default function Perfil() {
                 </div>
             </div>
             
+            <ColecaoArquivosRecemPublicados/>
             <Feed/>
             <Navigation />
         </div>
