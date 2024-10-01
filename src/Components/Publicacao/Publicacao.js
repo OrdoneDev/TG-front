@@ -61,7 +61,7 @@ export default function Publicacao() {
                     
                     {ImagemPublicacao(infoPublicacao.foto)}
 
-                    <div class="mt-3 mb-2 leading-normal text-sm sm:text-base">{infoPublicacao.descricao}</div>
+                    <div class="mt-3 mb-2 leading-normal text-sm sm:text-base text-justify">{infoPublicacao.descricao}</div>
 
                     <div>
                         { infoPublicacao.infoArquivos?.map( infoArquivo => (ArquivoPublicacao(infoArquivo) ))}
