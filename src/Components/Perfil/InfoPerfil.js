@@ -9,10 +9,10 @@ export default function InfoPerfil() {
     return(
 
         <div>
-                        <div class="w-full xl:w-[40%] lx:w-[45%] lg:w-[50%] ll:w-[60%] md:w-[75%] sm:w-[90%] w-[100%] mx-auto">
+            <div class="w-full xl:w-[40%] lx:w-[45%] lg:w-[50%] ll:w-[60%] md:w-[75%] sm:w-[90%] w-[100%] mx-auto">
                 <link rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-                <div class="w-full flex flex-col gap-1 pt-3 py-2 shadow-lg bg-white dark:bg-gray-600 px-5 dark:text-white">
+                <div class="w-full flex flex-col gap-1 pt-3 py-2 shadow-lg bg-white dark:bg-gray-700 dark:border-gray-600 px-5 dark:text-white">
                     <div class="flex items-center gap-1">
                         <img src="https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png" alt="User profile" class="w-[4rem] h-[4rem] rounded-full shadow-md" />
                         <div class="w-full">
@@ -34,10 +34,10 @@ export default function InfoPerfil() {
                         </div>
                     </div>
 
-                    <div class="mt-0.5  leading-normal text-sm sm:text-base text-justify">
+                    <div class="mt-0.5 leading-normal text-xs sm:text-sm text-justify">
                         {usuario.biografia}
-                        <a href="#" className="text-sm justify-end font-semibold text-white hover:text-black px-1.5">
-                            veja mais
+                        <a href="#" className="text-xs justify-end font-semibold text-white hover:text-black px-1.5">
+                            veja mais 🠗
                         </a>
                     </div>
                 </div>
