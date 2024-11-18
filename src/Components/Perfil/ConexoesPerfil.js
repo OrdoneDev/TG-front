@@ -8,32 +8,32 @@ export default function ConexoesPerfil() {
             perfil: '/user'
         },
         {
-            foto: 'https://cdn.discordapp.com/attachments/1154029468080418846/1290858765951963136/Profile-PNG-Pic.png?ex=66fdfd68&is=66fcabe8&hm=55e34245fd6f4b0a3face9b943e6cdc20bae4e669912889df084fd58a8597c57&',
+            foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
             nome: 'User',
             perfil: '/user'
         },
         {
-            foto: 'https://cdn.discordapp.com/attachments/1154029468080418846/1290858765951963136/Profile-PNG-Pic.png?ex=66fdfd68&is=66fcabe8&hm=55e34245fd6f4b0a3face9b943e6cdc20bae4e669912889df084fd58a8597c57&',
+            foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
             nome: 'User',
             perfil: '/user'
         },
         {
-            foto: 'https://cdn.discordapp.com/attachments/1154029468080418846/1290858765951963136/Profile-PNG-Pic.png?ex=66fdfd68&is=66fcabe8&hm=55e34245fd6f4b0a3face9b943e6cdc20bae4e669912889df084fd58a8597c57&',
+            foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
             nome: 'User',
             perfil: '/user'
         },
         {
-            foto: 'https://cdn.discordapp.com/attachments/1154029468080418846/1290858765951963136/Profile-PNG-Pic.png?ex=66fdfd68&is=66fcabe8&hm=55e34245fd6f4b0a3face9b943e6cdc20bae4e669912889df084fd58a8597c57&',
+            foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
             nome: 'User',
             perfil: '/user'
         },
         {
-            foto: 'https://cdn.discordapp.com/attachments/1154029468080418846/1290858765951963136/Profile-PNG-Pic.png?ex=66fdfd68&is=66fcabe8&hm=55e34245fd6f4b0a3face9b943e6cdc20bae4e669912889df084fd58a8597c57&',
+            foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
             nome: 'User',
             perfil: '/user'
         },
         {
-            foto: 'https://cdn.discordapp.com/attachments/1154029468080418846/1290858765951963136/Profile-PNG-Pic.png?ex=66fdfd68&is=66fcabe8&hm=55e34245fd6f4b0a3face9b943e6cdc20bae4e669912889df084fd58a8597c57&',
+            foto: 'https://contents.bebee.com/users/id/H4bhN624c5bc150429/_avatar-aJquV-400.png',
             nome: 'User',
             perfil: '/user'
         },
